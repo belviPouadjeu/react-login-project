@@ -15,6 +15,7 @@ module.exports = {
         btnColor: "#0172F4",
         bgInput: "#F7FAFC",
         bgAvatar: "#e79f13",
+        avatarColor: "#718096",
       },
     },
   },

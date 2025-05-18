@@ -6,4 +6,39 @@
     .align-element {
         @apply mx-auto max-w-6xl px-0;
     }
+
+    
 }
+
+input::placeholder {
+    padding-left: .5%;
+}
+
+/* .avatar{
+    position: absolute;
+    top: 0px;
+    right: 0;
+} */
+/* .rotated-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(247,250,252,0.4) 0%, rgba(237,242,247,0) 100%);
+    transform: rotate(26deg);
+    z-index: 10;
+    pointer-events: none;
+} */
+
+
+/* .eclipse {
+    position: relative;
+    width: 803px;
+    height: 792px;
+    top: -353px;
+    left: 1180.9px;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(180deg, rgba(247, 250, 252, 0.4) 0%, rgba(237, 242, 247, 0) 100%);
+    transform: rotate(26deg); 
+    z-index: 1;
+} */
+
