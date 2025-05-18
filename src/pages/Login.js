@@ -117,7 +117,7 @@ const Login = () => {
             {/* Right container */}
            <div className="relative w-full max-w-[766px] h-[950px] bg-bgAvatar rotated-overlay">
 
-                <div className="flex cover gap-5 mt-3 ml-[270px] sm:ml-[10px">
+                <div className="flex cover gap-5 mt-3 ml-[200px] sm:ml-[270px] w-full max-w-[300px]">
                     <img src={support} alt='Support' className='w-[20px] h-[20px]' />
                     <img src={phrase} alt='Phrase' className='w-[78px] h-[20px]' />
                     <div className='flex'>
