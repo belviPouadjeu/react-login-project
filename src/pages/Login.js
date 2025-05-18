@@ -20,7 +20,7 @@ const Login = () => {
     const isFormValid = email.trim() !== '' && password.trim() !== '';
     const isSubmitting = navigation.state === 'submitting';
     return (
-        <section className='align-element border flex flex-col md:flex-row min-h-screen'>
+        <section className='align-element flex flex-col md:flex-row min-h-screen'>
             {/* Left container */}
             <div className='w-full max-w-[640px] h-[864px]'>
                 <div className="max-w-[150px] h-[58px] left-0 sm:left-5 relative">
@@ -115,7 +115,7 @@ const Login = () => {
 
 
             {/* Right container */}
-           <div className="relative w-full max-w-[766px] h-[1024px] bg-bgAvatar rotated-overlay">
+           <div className="relative w-full max-w-[766px] h-[950px] bg-bgAvatar rotated-overlay">
 
                 <div className="flex cover gap-5 mt-3 ml-[270px] sm:ml-[10px">
                     <img src={support} alt='Support' className='w-[20px] h-[20px]' />
